@@ -12,19 +12,19 @@ def pause():
 
 
 def case1():
-    restpoor = ["ESCADINHA(SABOR DA PASSAGEM)", "VELHO(PORTINHA)", "ÁGUIA", "MIDWAY(GALERIA)", "PODRÃO DO METRÔ"]
+    restpoor = ["MANGØ"]
     choice1 = choice(restpoor)
     print("VC ESTÁ COM O VALE QUASE ZERADO, ALMOCE NO {}!".format(choice1))
 
 
 def case2():
-    restmed = ["MR. ÔPI(MOURISCO)", "CULINARE", "PREFÁCIO(LIVRARIA)", "LUPULINO"]
+    restmed = ["BAT CAVERNA", "ESTACAO"]
     choice2 = choice(restmed)
     print("AINDA ESTÁ SOBRANDO ALGUNS TROCADOS NO SEU VALE, VAMOS ALMOÇAR NO {}!".format(choice2))
 
 
 def case3():
-    restrich = ["OUTBACK", "FIAMMETTA", "EMPÓRIO PAX", "CHURRASCARIA FOGO DE CHÃO", "MIZU"]
+    restrich = ["OUTBACK", "JAPONES"]
     choice3 = choice(restrich)
     print("VC TA RICO, LARGA DE SER MÃO DE VACA E VAI ALMOÇAR NO {}".format(choice3))
 
